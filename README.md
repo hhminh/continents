@@ -2,7 +2,7 @@ A freeware turn based strategy written entirely in Java and run in any system su
 
 Best of all, this game is in the final stage of adding editing features to enable you to make your own game out of the engine.
 
-Its a complete game developed for hobby.
+Its a complete game developed for hobby. FEEL FREE TO MODIFY IT OR USE IT FOR YOUR OWN!
 
 This is an old game I wrote in university time.
 
