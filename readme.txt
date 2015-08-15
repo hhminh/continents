@@ -4,5 +4,8 @@ Best of all, this game is in the final stage of adding editing features to enabl
 
 Its a complete game developed for hobby.
 
-vb_user
-http://www.geocities.com/vb_user/
+This is an old game I wrote in university time.
+
+Download the first release at
+
+https://github.com/hhminh/continents/releases/tag/1.0.0.1
