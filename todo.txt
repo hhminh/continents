@@ -1,0 +1,105 @@
+to-do list
+
+08/05/2003
+
+1> Player object and collection
+	centralize resource		...	done
+	diplomacy array			...	done
+	job list			...	done
+	wish list
+	ai engine
+2> Unit cost per turn			...	done
+3> Unit build cost			...	done
+
+lesson
+
+to show tooltip, all parent holders have to be atleast jpanel
+
+/////////////////////////////////// ESCAPE DIALOG //////////////////////////////////////
+	protected void dialogInit() {
+		super.dialogInit();
+		JLayeredPane layeredPane = getLayeredPane();
+		//Closing action
+		Action closeAction = new AbstractAction(){
+			public void actionPerformed(ActionEvent e){
+				dispose();
+			}
+		};
+		//Escape key
+		KeyStroke stroke = KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0);
+		//Assign the ESCAPE label to closing action
+		layeredPane.getActionMap().put("ESCAPE", closeAction);
+		//Assign the escape key to ESCAPE label
+		layeredPane.getInputMap(JComponent.WHEN_IN_FOCUSED_WINDOW).put(stroke, "ESCAPE");
+	}
+/////////////////////////////////// ESCAPE DIALOG //////////////////////////////////////
+
+16/05/2003
+
+1> Path finding
+	filling cells with weighted values
+	ray tracing
+	turn right				done
+
+y = a x + b
+
+x---o
+x  oI
+x o I
+xo  I
+xxxxxxxxxxxxxx
+
+2> UnitType Dialog extended				done
+
+3> HouseType Dialog					no?
+
+4> Armies, Bases statistics				done
+
+5> Tech, tech cost, base research mechanism using book producing houses
+	each base pay gold to develop technology boosted by training houses
+	tech allows upgrade, new units
+
+22/06/2003
+
+City type allows new citizen to be of certain type	done
+ClipLoader fixing maximum number of clips problem	done
+City has limit						done
+King type with shield painted				done
+Add ships cheating					done
+MapPanel clipping fixing				done
+
+Exposing game editor
+Trading							half
+Conversation
+	Peace time
+		Bribe
+		Persuade
+		Chat					done
+		Quest
+	War time
+		Taunt					half
+		Bribe
+Splitting armies					done
+Remove or respawn dead player?				no
+person trait (normal/brave/delligent/genius/heroic/charismatic) affect career	done
+
+Todo:
+
+Color player in talk dialog			...	done
+City centre somehow must be hightlighted for clicking
+
+morale and happiness				...	done
+******************************************************************************
+trade panel display the company and terrain like in city
+******************************************************************************
+immigrate or neutral citizens join?			capture
+
+harvest on field (wood, food, etc)		...	done
+
+preemptive strike
+technology focus on enhancement
+units in city is now healed			...	done
+current missions				...	done
+
+Bombard enemy disappear when first unit attack is done?
+Making more secret?
