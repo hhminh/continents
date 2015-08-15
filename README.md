@@ -1,6 +1,6 @@
 A freeware turn based strategy written entirely in Java and run in any system supported by Java. Featuring a big world with random map generator, non-linear researching and hidden technology trees with units and advancements. RPG style job systems. Each single game unit (military of civilian) has its own name, traits and characteristics with its own personal development.
 
-Best of all, this game is in the final stage of adding editing features to enable you to make your own game out of the engine.
+Best of all, this game is fulling configurable to enable you to make your own game out of the engine.
 
 Its a complete game developed for hobby. FEEL FREE TO MODIFY IT OR USE IT FOR YOUR OWN!
 
