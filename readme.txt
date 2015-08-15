@@ -9,3 +9,11 @@ This is an old game I wrote in university time.
 Download the first release at
 
 https://github.com/hhminh/continents/releases/tag/1.0.0.1
+
+Screenshots
+
+![Screenshot 1](/documentations/screenshots/screenshot1.gif?raw=true "Screenshot 1")
+![Screenshot 2](/documentations/screenshots/screenshot001.gif?raw=true "Screenshot 2")
+![Screenshot 3](/documentations/screenshots/screenshot2.gif?raw=true "Screenshot 3")
+![Screenshot 4](/documentations/screenshots/screenshot002.gif?raw=true "Screenshot 4")
+![Screenshot 5](/documentations/screenshots/screenshot003.gif?raw=true "Screenshot 5")
