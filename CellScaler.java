@@ -1,4 +1,6 @@
-
+/**
+ * Component for scaling an image cell according to size using a lossless algorithm
+ */
 import java.lang.*;
 import java.awt.*;
 import java.awt.event.*;
